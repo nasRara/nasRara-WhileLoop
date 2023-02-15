@@ -34,9 +34,12 @@ public class Lab {
      **/
     public int whileExample(int end){
         int sum = 0;
-        int i = 0;
-
-//        code here
+        int i = 0; 
+        
+        while(i<end){
+            sum= sum+i;
+            i= i+1;
+        }
 
         return sum;
     }
